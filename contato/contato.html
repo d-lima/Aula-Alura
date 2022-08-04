@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contato - Barbearia Alura</title>
+        <link rel="stylesheet" href="../reset.css">
+        <link rel="stylesheet" href="contato.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2 family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>      
+      <header>
+        <div class="caixa">
+          <h1>
+            <a href="../index.html">
+              <img src="../produto/imagens/logo.png" alt="logo Barbearia Alura"><span>Barbearia Alura</span>
+            </a>
+          </h1>
+            <form action="">
+            <input type="text" id="busca" class="busca" placeholder="Busque aqui"/>
+            <button type="submit" id="busca" class="btn">🔍</button>
+          </form>
+          <nav>
+            <ul class="menu">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../produto/produtos.html">Produtos</a></li>
+              <li><a href="../contato/contato.html">Contatos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>        
+      
+      <main class="container">
+        <div>
+          <form>
+            <div>
+              <label for="nomeesobrenome">Nome e sobrenome *</label>
+              <input type="text" id="nomeesobrenome" class="input-padrao" placeholder="Seu Nome e sobrenome" required>
+            </div>
+            <div>
+              <label for="email">Email *</label>
+              <input type="email" id="email" class="input-padrao" placeholder="SeuEmail@dominio.com" required>
+            </div>  
+            <div>
+              <label for="telefone">Telefone *</label>
+              <input type="tel" id="telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX" required>
+            </div>
+            <div>
+              <label for="mensagem">Mensagem</label>
+              <textarea cols="60" rows="10" id="mensagem" class="input-padrao" placeholder="Digite sua mensagem aqui"></textarea>
+            </div>
+            
+            <fieldset>
+              <legend>Como prefere o nosso contato?</legend>
+              <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+              
+              <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+              
+              <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>                    
+            </fieldset>
+            
+            <fieldset class="legend-check">
+              <legend>Qual horário prefere ser atendido?</legend>
+              <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+              </select>
+            </fieldset>        
+            
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+          </form>
+        </div>
+        <div class="tabeladia">
+          <table>
+            <p class="textotabela">Dias e horários de funcionamento:</p>
+            <thead>
+              <tr>
+                <th>Dia</th>
+                <th>Horário</th>
+              </tr>
+            </thead>
+              <tbody>    
+                <tr>
+                  <td>Segunda-feira</td>
+                  <td>8h ~ 20hs</td>
+                </tr>
+                <tr>
+                  <td>Terça-feira</td>
+                  <td>8h ~ 20hs</td>
+                </tr>
+                <tr>
+                  <td>Quarta-feira</td>
+                  <td>8h ~ 20hs</td>
+                </tr>
+                <tr>
+                  <td>Quinta-feira</td>
+                  <td>8h ~ 20hs</td>
+                </tr>
+                <tr>
+                  <td>Sexta-feira</td>
+                  <td>10h ~ 20hs</td>
+                </tr>
+              </tbody>    
+          </table>
+        </div>  
+            
+      </main>
+
+      <footer>
+        <img src="../produto/imagens/logo-branco.png" alt="logo-branco">
+        <p class="Copyright">&copy; Copyright Barbearia Alura – 2022</p>
+      </footer>
+    </body>
+
+</html>
