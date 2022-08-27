@@ -1,7 +1,6 @@
 <h1>Aula Alura (barbearia)</h1>
 
 > Status do projeto: Concluído
-
 <br/>
 
 <p>Curso inicial do Alura para aprender a criar página web com HTML5 e CSS3.</p>
